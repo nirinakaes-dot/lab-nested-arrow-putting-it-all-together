@@ -16,7 +16,7 @@ if(attemptCount >3) { return "Account locked due to too many failed login attemp
 
 }
 const login = createLoginTracker(userInfo)
-console.log(login("password12345"))
+console.log(login("password123"))
 console.log(login("password1234"))
 console.log(login("password12347"))
 console.log(login("password1234"))
