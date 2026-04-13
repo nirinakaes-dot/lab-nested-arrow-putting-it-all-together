@@ -9,7 +9,7 @@ function createLoginTracker (x){
   return function innerFunction (passwordAttempt){
      attemptCount++ 
 console.log(attemptCount)
-    if(passwordAttempt === userInfo.password && attemptCount<=3) {return "Login Succesfull"} else if(attemptCount<=3){return "Login failed"} else{ return "Account locked due to too many failed login attempts"}
+    if(passwordAttempt === userInfo.password && attemptCount<=3) {return "Login succesfull"} else if(attemptCount<=3){return ${attemptCount}"Login failed"} else{ return "Account locked due to too many failed login attempts"}
 
   }
 
