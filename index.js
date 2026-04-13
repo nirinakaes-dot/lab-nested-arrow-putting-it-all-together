@@ -20,6 +20,6 @@ console.log(login("password1234"))
 console.log(login("password12347"))
 console.log(login("password1234"))
 
-module.exports = {module.exports = {
+module.exports = {
   ...(typeof createLoginTracker !== 'undefined' && { createLoginTracker })
-};}
+};
